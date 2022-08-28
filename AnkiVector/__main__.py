@@ -66,22 +66,22 @@ from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = f"""
 *Hellow There, I'm Anki Vector 🍑
 
-I'm a Powerfull group manager bot With Cool Modules. Made My @TeamAnkiVector
+I'm a Powerfull group manager bot With Cool Modules. Made My @XteamBD
 hit /help to Find my list of available commands 🕹*
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/AnkiSupport_Official"),
+        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/xteambd"),
+        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/xteambdchat"),
     ],
     [
-        InlineKeyboardButton(text="📜 Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
+        InlineKeyboardButton(text="📜 Owner", url="https://t.me/noob_xd"),
         InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector To Youre Group ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ Add Anki Vector To Youre Group ➕", url="t.me/xteamrobot?startgroup=true"
         ),
     ],
 ]
@@ -106,7 +106,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Damantha Jasinghe](t.me/Damantha_Jasinghe)"""
+Support them  [Damantha Jasinghe](t.me/noon_xd)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -358,7 +358,7 @@ def AnkiVector_about_callback(update, context):
     if query.data == "aboutmanu_":
         query.message.edit_text(
             text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Anki Vector Updates.* "
-            f"\n\n Join [AnkiVectorUpdates](https://t.me/ankivectorUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
+            f"\n\n Join [AnkiVectorUpdates](https://t.me/xteambdchat) To Keep Yourself Updated About {dispatcher.bot.first_name}"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
             f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
             f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
